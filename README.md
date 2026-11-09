@@ -1,4 +1,4 @@
 # pipi-site
 
-Home page, privacy policy and terms for [Pipi](https://lepapillonterrible.github.io), served by GitHub Pages.
+Home page, privacy policy and terms for [Pipi](https://pipi.papillonmakes.tech), served by GitHub Pages.
 The app itself lives in a separate repository.
