@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pipi privacy policy</title>
+<meta name="description" content="How Pipi handles your Gmail: it reads mail on your phone, keeps it there, and sends it nowhere else.">
+<link rel="icon" href="icon-120.png">
+<link rel="apple-touch-icon" href="icon-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="site"><a href="./"><img src="icon-120.png" alt=""><span>Pipi</span></a></header>
+
+<h1>Privacy policy</h1>
+<p class="meta">Effective 9 November 2026</p>
+
+<p class="lede">Pipi reads your Gmail on your phone, sorts it on your phone, and keeps it on your phone. There is no Pipi server that receives your mail, your sign-in, or anything learned from them.</p>
+
+<div class="letter">
+
+<h2>Who we are</h2>
+<p>Pipi is made by Andreea Papillon (Papillon Makes). Questions about this policy or your data go to <a href="mailto:hello@papillonmakes.com">hello@papillonmakes.com</a>.</p>
+
+<h2>What Pipi accesses</h2>
+<p>When you add a Google account, Google asks you to let Pipi:</p>
+<ul>
+<li><b>Read your Gmail</b> (<code>gmail.readonly</code>): message contents, headers, labels and attachments' names, so Pipi can show and sort your mail. Pipi cannot send, delete or change anything in Gmail.</li>
+<li><b>See your email address</b> (<code>openid</code>, <code>email</code>), so Pipi knows which account a message belongs to.</li>
+</ul>
+
+<h2>How Pipi uses it</h2>
+<ul>
+<li>To show your mail and sort it into People, Updates, Newsletters and New senders.</li>
+<li>To learn from what you do. When you move an email or accept a sender, Pipi remembers it so the next email from them lands in the right place. People you've written to are treated as people you know.</li>
+<li>To search your mail.</li>
+</ul>
+<p>All of this runs on your device. Pipi does not use your Gmail data for advertising, does not sell it, does not share it with data brokers, and does not use it to train AI or machine-learning models. Nobody at Papillon Makes reads your mail.</p>
+
+<h2>Where your data is kept</h2>
+<table>
+<tr><th>What</th><th>Where</th></tr>
+<tr><td>Your mail and Pipi's sorting</td><td>A database inside Pipi's private storage on your phone, protected by the operating system's file encryption (iOS Data Protection, Android file-based encryption).</td></tr>
+<tr><td>Your Google sign-in</td><td>A refresh token in the iOS Keychain (Android Keystore on Android), readable only by Pipi on this device. Short-lived access tokens are kept in memory only.</td></tr>
+<tr><td>Your preferences, such as which senders may load images</td><td>Pipi's settings on your phone.</td></tr>
+</table>
+<p>Pipi talks directly to Google's servers over HTTPS. We don't run a server that stores or passes on your data.</p>
+
+<h2>Sharing</h2>
+<p>Pipi does not transfer your Google user data to anyone. The only exceptions are the ones Google's policy allows: if you ask for it, to comply with the law, or as part of a merger or sale of Pipi with the same protections in place.</p>
+
+<p>Two things reach other parties because you chose them:</p>
+<ul>
+<li><b>Images in emails.</b> Pipi blocks remote images by default. If you tap "Load images", the sender's servers can see that the email was opened, your IP address and approximate location.</li>
+<li><b>Links.</b> Tapping a link opens it in your browser, where that site's own policy applies.</li>
+</ul>
+
+<h2>Google API Services User Data Policy</h2>
+<p>Pipi's use and transfer of information received from Google APIs to any other app will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Keeping and deleting your data</h2>
+<ul>
+<li><b>Remove one account:</b> in Pipi, open Accounts and tap Remove. Pipi signs out and deletes that account's mail from your phone.</li>
+<li><b>Remove everything:</b> delete the Pipi app. Its database, settings and Keychain sign-ins go with it.</li>
+<li><b>Revoke access from Google's side:</b> visit <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> and remove Pipi.</li>
+</ul>
+<p>Pipi keeps your mail until you do one of these. Because nothing is stored on our side, there is nothing for us to delete, but you can write to us any time.</p>
+
+<h2>Analytics, ads and tracking</h2>
+<p>None. Pipi has no analytics, no advertising, no crash-reporting service and no tracking.</p>
+
+<h2>Children</h2>
+<p>Pipi isn't directed at children under 13, and we don't knowingly collect their data.</p>
+
+<h2>Changes</h2>
+<p>If Pipi ever adds a feature that sends anything off your phone, such as optional instant alerts, it will be off until you turn it on, Pipi will say exactly what it can see, and this policy will be updated first. The date at the top shows the latest version.</p>
+
+</div>
+
+<footer class="site"><a href="./">Pipi</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="mailto:hello@papillonmakes.com">Contact</a></footer>
+</div>
+</body>
+</html>
